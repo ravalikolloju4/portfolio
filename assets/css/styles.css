@@ -417,8 +417,12 @@ h2 {
 }
 
 .profile {
-    margin-bottom: 1.5rem;
+    width: 100%; /* Adjust the width of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .profile-img {
     width: 50%;
