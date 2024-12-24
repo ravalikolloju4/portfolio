@@ -381,31 +381,37 @@ footer {
     line-height: 1.8;
 }
 
+
 /* Contact Section Styles */
 .contact-section {
     padding: 4rem 2rem;
     background-color: #fff;
     display: flex;
-    justify-content: center; /* Center the section */
+    justify-content: center;
     align-items: center;
-    height: 100vh; /* Ensure the section takes full screen height */
+    height: 100vh;
 }
 
 .container {
-    max-width: 800px; /* Limit width for better readability */
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 2rem;
+    width: 100%;
 }
 
 .contact-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center everything */
-    gap: 2rem;
-    text-align: center; /* Center text */
+    align-items: center;
+    gap: 1rem; /* Reduced from 2rem */
+    text-align: center;
+    width: 100%;
 }
 
 .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
 }
 
@@ -413,30 +419,34 @@ h2 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #333;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem; /* Reduced from 1.5rem */
 }
 
 .profile {
-    width: 100%; /* Adjust the width of the container */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin-bottom: 1rem; /* Reduced from 2rem */
 }
 
-
 .profile-img {
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem; /* Reduced from 1rem */
 }
 
 .social-links {
-    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 0.5rem; /* Reduced from 1rem */
 }
 
 .social-link {
-    margin-right: 1rem;
     color: #3498db;
     text-decoration: none;
     font-weight: bold;
@@ -447,14 +457,15 @@ h2 {
 }
 
 .contact-details {
-    margin-top: 2rem;
+    margin-top: 1rem; /* Reduced from 2rem */
+    width: 100%;
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center items */
-    margin-bottom: 1rem;
+    justify-content: center;
+    margin-bottom: 0.75rem; /* Reduced from 1rem */
 }
 
 .icon {
@@ -469,9 +480,14 @@ h2 {
 }
 
 @media (max-width: 768px) {
-    .contact-wrapper {
-        flex-direction: column; /* Stack the sections on smaller screens */
+    .container {
+        padding: 0 1rem;
     }
+    
+    .profile-img {
+        max-width: 100%;
+    }
+}
     .contact-info {
         text-align: center;
     }
