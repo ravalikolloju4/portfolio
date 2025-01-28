@@ -267,6 +267,77 @@ footer {
     font-size: 0.9rem;
     color: #333;
 }
+/* Volunteer Experience Section */
+.volunteer-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.volunteer-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.volunteer-section .section-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.volunteer-section .section-header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.volunteer-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left; /* Keep text-align left for other content */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    text-align: center; /* Only center the job title */
+}
+
+.volunteer-card .company {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left; /* Keep company text left-aligned */
+}
+
+.responsibilities-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.responsibilities {
+    width: 100%;
+}
+
+.responsibilities-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.responsibilities-list li {
+    margin-bottom: 10px;
+}
+
+.responsibilities p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
 /* Education Section */
 .education-section {
