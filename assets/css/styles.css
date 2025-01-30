@@ -344,6 +344,10 @@ footer {
     margin-bottom: 10px;
 }
 
+.company span {
+    margin-left: 8px; /* Adjust the space */
+}
+
 .volunteer-section .section-header p {
     font-size: 1.2rem;
     color: #666;
