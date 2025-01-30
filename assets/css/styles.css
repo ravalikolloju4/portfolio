@@ -283,7 +283,7 @@ footer {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 1.5rem; /* Slightly reduced padding */
+    padding: 0 1rem; /* Reduced padding */
     width: 100%;
     text-align: center;
 }
@@ -292,8 +292,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem; /* Reduced gap between elements */
+    gap: 0.25rem; /* Further reduced gap */
     width: 100%;
+    padding: 1rem 0; /* Reduced space above and below */
 }
 
 .certification {
@@ -301,12 +302,13 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 0.5rem; /* Reduced bottom margin */
+    margin-bottom: 0; /* Removed bottom margin */
+    padding: 0; /* Ensure no extra padding */
 }
 
 .certification-img {
     width: 100%;
-    max-width: 500px; /* Increased max-width for a larger image */
+    max-width: 550px !important; /* Increased image size with !important */
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -317,18 +319,18 @@ footer {
     font-size: 1.5rem;
     color: var(--primary-color);
     margin-top: 0; /* Ensures no extra space above the heading */
+    margin-bottom: 0.25rem; /* Slightly reduced bottom space */
 }
 
 @media (max-width: 768px) {
     .container {
-        padding: 0 1rem;
+        padding: 0 0.5rem;
     }
 
     .certification-img {
-        max-width: 100%;
+        max-width: 100% !important; /* Ensure full width on smaller screens */
     }
 }
-
 
 /* Volunteer Experience Section */
 .volunteer-section {
