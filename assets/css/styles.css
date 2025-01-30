@@ -267,6 +267,54 @@ footer {
     font-size: 0.9rem;
     color: #333;
 }
+/* Certifications Section */
+.certifications-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.certifications-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.certifications-section .section-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.certifications-section .section-header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.certification-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center; /* Center-align text for consistency */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certification-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.certification-image {
+    max-width: 200px; /* Adjust the size of the image */
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+}
+
+
 /* Volunteer Experience Section */
 .volunteer-section {
     padding: 60px 20px;
