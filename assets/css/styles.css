@@ -276,6 +276,16 @@ footer {
     align-items: center;
     height: 100vh;
 }
+.certification-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent */
+    display: block; /* Ensure it behaves like a heading */
+}
+
+.certification-link:hover {
+    text-decoration: none; /* Prevent underline on hover */
+}
+
 
 .container {
     max-width: 800px;
