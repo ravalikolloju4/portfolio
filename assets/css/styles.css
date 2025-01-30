@@ -267,9 +267,10 @@ footer {
     font-size: 0.9rem;
     color: #333;
 }
+
 .certification-link {
     text-decoration: none; /* Remove underline */
-    color: inherit; /* Make text color same as surrounding text */
+    color: inherit; /* Keep text color same as surrounding text */
     font-size: inherit; /* Ensure it matches the heading style */
     font-weight: inherit; /* Maintain the heading's boldness */
     display: inline-block; /* Prevent extra spacing issues */
@@ -282,7 +283,7 @@ footer {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1.5rem; /* Slightly reduced padding */
     width: 100%;
     text-align: center;
 }
@@ -291,7 +292,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem; /* Reduced gap between elements */
     width: 100%;
 }
 
@@ -300,21 +301,22 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem; /* Reduced bottom margin */
 }
 
 .certification-img {
     width: 100%;
-    max-width: 400px; /* Adjust as needed */
+    max-width: 500px; /* Increased max-width for a larger image */
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem; /* Reduced space below the image */
 }
 
 .certification h3 {
     font-size: 1.5rem;
     color: var(--primary-color);
+    margin-top: 0; /* Ensures no extra space above the heading */
 }
 
 @media (max-width: 768px) {
