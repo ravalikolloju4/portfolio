@@ -267,25 +267,17 @@ footer {
     font-size: 0.9rem;
     color: #333;
 }
-/* Certifications Section */
-.certifications-section {
-    padding: 4rem 2rem;
-    background-color: #f9f9f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 .certification-link {
     text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit text color from parent */
-    display: block; /* Ensure it behaves like a heading */
+    color: inherit; /* Make text color same as surrounding text */
+    font-size: inherit; /* Ensure it matches the heading style */
+    font-weight: inherit; /* Maintain the heading's boldness */
+    display: inline-block; /* Prevent extra spacing issues */
 }
 
 .certification-link:hover {
-    text-decoration: none; /* Prevent underline on hover */
+    text-decoration: none; /* Ensure no underline appears on hover */
 }
-
 
 .container {
     max-width: 800px;
